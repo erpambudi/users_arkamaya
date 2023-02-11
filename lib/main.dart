@@ -13,7 +13,7 @@ import 'presentation/pages/main_page.dart';
 void main() {
   di.init();
 
-  env(Environment.development);
+  env(Environment.production);
 
   runApp(const MyApp());
 }

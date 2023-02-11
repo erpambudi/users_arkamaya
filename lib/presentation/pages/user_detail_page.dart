@@ -122,7 +122,7 @@ class UserDetailPage extends StatelessWidget {
                           height: AppValues.margin_4,
                         ),
                         Text(
-                          "${user.support}",
+                          user.support.text,
                           style: AppTextStyle.subtitle,
                         ),
                       ],
